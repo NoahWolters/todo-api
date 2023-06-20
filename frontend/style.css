@@ -1,0 +1,52 @@
+*,
+:after *,
+:before * {
+  box-sizing: border-box;
+}
+html {
+  background-image: url(https://img.freepik.com/free-vector/detailed-jungle-background_23-2148953379.jpg?w=1380&t=st=1687269793~exp=1687270393~hmac=03da562c2fce0097e21cd60b168282d33ea99da20f128d1eccb8a787360a5eda);
+  min-height: 100%;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-family: "Kablammo", cursive;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-family: "Kablammo", cursive;
+  background: linear-gradient(
+    to right,
+    forestgreen 0%,
+    forestgreen 30%,
+    yellowgreen 30%,
+    yellowgreen 35%,
+    forestgreen 35%,
+    forestgreen 65%,
+    yellowgreen 65%,
+    yellowgreen 70%,
+    forestgreen 70%,
+    forestgreen 100%
+  );
+  border-radius: 5px;
+}
+.list {
+  color: black;
+  font-family: "Sawarabi Mincho", serif;
+  font-size: 1rem;
+}
+
+#todoInput {
+  border-radius: 5px;
+  background: none;
+  backdrop-filter: blur(3px);
+}
+.myCheckbox {
+  background-color: hotpink;
+}
